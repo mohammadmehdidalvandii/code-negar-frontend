@@ -1,1 +1,63 @@
-@import 'tailwindcss'
+@import 'tailwindcss';
+
+/* &&&& Font Family &&&& */
+@font-face {
+    font-family: 'danaBlack';
+    src: url('../public/font/Dana-Black.woff') format("woff");
+}
+@font-face {
+    font-family: 'danaExBlack';
+    src: url('../public/font/Dana-ExtraBlack.woff') format("woff");
+}
+@font-face {
+    font-family: 'danaBold';
+    src: url('../public/font/Dana-Bold.woff') format("woff");
+}
+@font-face {
+    font-family: 'danaMedium';
+    src: url('../public/font/Dana-Medium.woff') format("woff");
+}
+@font-face {
+    font-family: 'danaRegular';
+    src: url('../public/font/Dana-Regular.woff')format("woff");
+}
+/* &&&& Font Family &&&& */
+
+/* &&&& Theme tailwind &&&& */
+@theme{
+    --font-danaBlack: 'danaBlack';
+    --font-danaExBlack: 'danaExBlack';
+    --font-danaBold: 'danaBold';
+    --font-danaMedium: 'danaMedium';
+    --font-danaRegular: 'danaRegular';
+
+    --color-bg-light : #ffffff;
+    --color-text: #121212;
+    --color-link:#1A73EB;
+    --color-link-hover:#1558B0;
+    --color-button:#6200EE;
+    --color-button-hover:#3700B3;
+    --color-bg-dark:#121210;
+    --color-text-dark:#E0E0E0;
+    --color-link-dark:#64B5F6;
+    --color-link-hover-dark:#42A5F5;
+    --color-button-dark:#BB86FC;
+    --color-btn-hover-dark:#985EFF;
+}
+/* &&&& Theme tailwind &&&& */
+
+/* &&&& Layer components &&&& */
+@layer components{
+    
+}
+/* &&&& Layer components &&&& */
+
+/* &&&& body &&&& */
+body{
+    @apply m-0 p-0 bg-bg-light text-base text-text font-bold box-border 
+}
+/* &&&& body &&&& */
+/* &&&& &&&& */
+/* &&&& &&&& */
+/* &&&& &&&& */
+/* &&&& &&&& */
