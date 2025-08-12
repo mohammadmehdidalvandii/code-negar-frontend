@@ -1,8 +1,14 @@
+import {BrowserRouter as Router , Routes , Route} from 'react-router-dom'
 import React from 'react'
+import HomePage from './page/HomePage/HomePage'
 
-function App() {
+const App:React.FC = ()=>{
   return (
-    <div>App</div>
+    <Router>
+      <Routes>
+        <Route path='/' element={<HomePage/>}/>
+      </Routes>
+    </Router>
   )
 }
 
