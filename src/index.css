@@ -23,6 +23,17 @@
 }
 /* &&&& Font Family &&&& */
 
+/* &&&& utility &&&& */
+@utility container{
+  max-width: 75rem; /*75 = 1200px */
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+/* &&&& utility &&&& */
+
+
 /* &&&& Theme tailwind &&&& */
 @theme{
     --font-danaBlack: 'danaBlack';
@@ -48,7 +59,6 @@
 
 /* &&&& Layer components &&&& */
 @layer components{
-    
 }
 /* &&&& Layer components &&&& */
 
@@ -57,7 +67,6 @@ body{
     @apply m-0 p-0 bg-bg-light text-base text-text font-bold box-border 
 }
 /* &&&& body &&&& */
-/* &&&& &&&& */
-/* &&&& &&&& */
+
 /* &&&& &&&& */
 /* &&&& &&&& */
