@@ -1,4 +1,6 @@
 @import 'tailwindcss';
+/* use dark mode tailwind */
+@custom-variant dark (&:where(.dark, .dark *));
 
 /* &&&& Font Family &&&& */
 @font-face {
@@ -60,6 +62,9 @@
 
 /* &&&& Layer components &&&& */
 @layer components{
+    .btn_primary {
+        @apply flex justify-center items-center w-[100px] h-10 bg-button dark:bg-button-dark dark:hover:bg-btn-hover-dark text-white dark:text-text rounded-2xl hover:bg-button-hover
+    }
 }
 /* &&&& Layer components &&&& */
 
