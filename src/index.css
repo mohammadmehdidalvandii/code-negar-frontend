@@ -70,7 +70,7 @@
 
 /* &&&& body &&&& */
 body{
-    @apply m-0 p-0 bg-bg-light dark:bg-bg-dark text-base text-text font-bold box-border 
+    @apply m-0 p-0 bg-bg-home dark:bg-bg-dark text-base text-text font-bold box-border 
 }
 /* &&&& body &&&& */
 
