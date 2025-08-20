@@ -1,7 +1,7 @@
 import {BrowserRouter as Router , Routes , Route} from 'react-router-dom'
 import React from 'react'
-import HomePage from './page/HomePage/HomePage'
-import Login from './page/Login/Login'
+import HomePage from '@page/HomePage/HomePage'
+import Login from '@page/Login/Login'
 
 const App:React.FC = ()=>{
   return (

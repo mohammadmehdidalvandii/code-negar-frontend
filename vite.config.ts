@@ -8,4 +8,16 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  resolve:{
+    alias:{
+      '@page':'/src/page',
+      '@components':'/src/components',
+      '@components/modules':'/src/components/modules/',
+      '@components/template':'/src/components/template/',
+      '@components/Routes':'/src/components/Routes/',
+      '@utils':'/src/utils',
+      '@hooks':'/src/hooks',
+      '@zustand':'/src/zustand'
+    }
+  }
 })
