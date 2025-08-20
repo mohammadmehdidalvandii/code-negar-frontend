@@ -5,23 +5,23 @@
 /* &&&& Font Family &&&& */
 @font-face {
     font-family: 'danaBlack';
-    src: url('../public/font/Dana-Black.woff') format("woff");
+    src: url('/font/Dana-Black.woff') format("woff");
 }
 @font-face {
     font-family: 'danaExBlack';
-    src: url('../public/font/Dana-ExtraBlack.woff') format("woff");
+    src: url('/font/Dana-ExtraBlack.woff') format("woff");
 }
 @font-face {
     font-family: 'danaBold';
-    src: url('../public/font/Dana-Bold.woff') format("woff");
+    src: url('/font/Dana-Bold.woff') format("woff");
 }
 @font-face {
     font-family: 'danaMedium';
-    src: url('../public/font/Dana-Medium.woff') format("woff");
+    src: url('/font/Dana-Medium.woff') format("woff");
 }
 @font-face {
     font-family: 'danaRegular';
-    src: url('../public/font/Dana-Regular.woff')format("woff");
+    src: url('/font/Dana-Regular.woff')format("woff");
 }
 /* &&&& Font Family &&&& */
 
