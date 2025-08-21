@@ -52,6 +52,7 @@
     --color-button:#6200EE;
     --color-button-hover:#3700B3;
     --color-bg-dark:#121210;
+    --color-bg-dark-100:#302E2E;
     --color-text-dark:#E0E0E0;
     --color-link-dark:#64B5F6;
     --color-link-hover-dark:#42A5F5;
@@ -63,7 +64,22 @@
 /* &&&& Layer components &&&& */
 @layer components{
     .btn_primary {
-        @apply flex justify-center items-center w-[100px] h-10 bg-button dark:bg-button-dark dark:hover:bg-btn-hover-dark text-white dark:text-text rounded-2xl hover:bg-button-hover
+        @apply flex justify-center items-center font-danaBold text-lg text-white dark:text-white  w-[100px] h-10 bg-button dark:bg-button-dark dark:hover:bg-btn-hover-dark text-white dark:text-text rounded-2xl hover:bg-button-hover
+    }
+    .form{
+        @apply block w-full
+    }
+    .form_group{
+        @apply block mb-4 w-full
+    }
+    .form_label{
+        @apply block  font-danaRegular text-text dark:text-white
+    }
+    .form_input{
+        @apply block outline-0 border border-bg-dark-100 w-full h-10 mt-2 dark:border-white dark:text-white  rounded-md p-0.5 focus:border-link
+    }
+    .form_input::placeholder{
+        @apply font-danaMedium text-sm dark:text-white
     }
 }
 /* &&&& Layer components &&&& */
