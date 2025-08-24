@@ -17,7 +17,8 @@ export default defineConfig({
       '@components/Routes':'/src/components/Routes/',
       '@utils':'/src/utils',
       '@hooks':'/src/hooks',
-      '@zustand':'/src/zustand'
+      '@zustand':'/src/zustand',
+      '@services':'/src/services'
     }
   }
 })
