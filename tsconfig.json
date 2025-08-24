@@ -16,8 +16,8 @@
       "@components/Routes/*":["components/Routes/*"],
       "@utils/*":["utils/*"],
       "@hooks/*":["hooks/*"],
-      "@zustand/*":["zustand/"],
-      "@services/*":["services/"],
+      "@zustand/*":["zustand/*"],
+      "@services/*":["services/*"],
     },
 
     /* Bundler mode */
