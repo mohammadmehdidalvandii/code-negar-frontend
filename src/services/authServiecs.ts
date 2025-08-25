@@ -1,6 +1,5 @@
 const baseUrl = 'http://localhost:3000/api/'
 
-
 // register services
 interface registerProps{
     username:string,
@@ -43,8 +42,20 @@ interface LoginProps {
     return data
 }
 
+// get token 
+const getToken = ()=>{
+    const token = localStorage.getItem('token');
+    if(!token){
+        throw new Error('توکن وجود ندارد')
+    } else{
+        return token
+    }
+}
+
+
 export {
     loginUser,
-    registerUser
+    registerUser,
+    getToken
 } 
     
