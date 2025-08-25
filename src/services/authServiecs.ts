@@ -34,7 +34,9 @@ interface LoginProps {
         headers:{'Content-Type':'application/json'},
         body:JSON.stringify({email , password})
     })
-    if(response.status !== 200){
+    if(response.status === 400){
+        throw new Error("نام کاربری یا رمز عبور معتبر نیست")
+    }else if(response.status !== 200){
         throw new Error('Login Failed')
     }
     const data = await response.json();
